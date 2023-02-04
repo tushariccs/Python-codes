@@ -1,0 +1,126 @@
+nums = [50,60,11,15,16]
+      
+nums
+      
+[50, 60, 11, 15, 16]
+nums[0]
+      
+50
+nums[5]
+      
+Traceback (most recent call last):
+  File "<pyshell#51>", line 1, in <module>
+    nums[5]
+IndexError: list index out of range
+nums[4]
+      
+16
+nums[-1]
+      
+16
+nums[-4]
+      
+60
+nums[-5:-1]
+      
+[50, 60, 11, 15]
+nums[1:]
+      
+[60, 11, 15, 16]
+names = ['Tushar','Nitin','Bhansali']
+      
+newway = [nums,names]
+      
+newway
+      
+[[50, 60, 11, 15, 16], ['Tushar', 'Nitin', 'Bhansali']]
+newway = [[20,30,40],['Hi','bloody','day']
+        newway
+          
+SyntaxError: '[' was never closed
+newway = [[20,30,40],['Hi','bloody','day']]
+          
+newway
+          
+[[20, 30, 40], ['Hi', 'bloody', 'day']]
+nums.append[32]
+          
+Traceback (most recent call last):
+  File "<pyshell#64>", line 1, in <module>
+    nums.append[32]
+TypeError: 'builtin_function_or_method' object is not subscriptable
+nums.append(32)
+          
+nums
+          
+[50, 60, 11, 15, 16, 32]
+nums.push(50)
+          
+Traceback (most recent call last):
+  File "<pyshell#67>", line 1, in <module>
+    nums.push(50)
+AttributeError: 'list' object has no attribute 'push'
+nums.push(5,60)
+          
+Traceback (most recent call last):
+  File "<pyshell#68>", line 1, in <module>
+    nums.push(5,60)
+AttributeError: 'list' object has no attribute 'push'
+nums.count()
+          
+Traceback (most recent call last):
+  File "<pyshell#69>", line 1, in <module>
+    nums.count()
+TypeError: list.count() takes exactly one argument (0 given)
+nums.count()
+          
+Traceback (most recent call last):
+  File "<pyshell#70>", line 1, in <module>
+    nums.count()
+TypeError: list.count() takes exactly one argument (0 given)
+nums.count(1)
+          
+0
+list.count(nums)
+          
+Traceback (most recent call last):
+  File "<pyshell#72>", line 1, in <module>
+    list.count(nums)
+TypeError: list.count() takes exactly one argument (0 given)
+nums.count(11)
+          
+1
+nums.pop()
+          
+32
+nums.remove(3)
+          
+Traceback (most recent call last):
+  File "<pyshell#75>", line 1, in <module>
+    nums.remove(3)
+ValueError: list.remove(x): x not in list
+nums.remove(16)
+          
+nums
+          
+[50, 60, 11, 15]
+nums.sort()
+          
+nums
+          
+[11, 15, 50, 60]
+
+
+
+nums = [10,20,30,54,50,60,70]
+nums
+[10, 20, 30, 54, 50, 60, 70]
+del nums[2:]
+nums
+[10, 20]
+nums.extend([25,30,35,40,52])
+nums
+[10, 20, 25, 30, 35, 40, 52]
+
+
+List is mutable that is it can be changed.

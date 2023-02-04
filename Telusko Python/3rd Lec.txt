@@ -1,0 +1,26 @@
+2+3
+5
+3%5
+3
+4/5
+0.8
+10 * Tushar
+Traceback (most recent call last):
+  File "<pyshell#3>", line 1, in <module>
+    10 * Tushar
+NameError: name 'Tushar' is not defined
+10 * 'Tushar'
+'TusharTusharTusharTusharTusharTusharTusharTusharTusharTushar'
+print('navin\'s "Laptop")
+      
+SyntaxError: unterminated string literal (detected at line 1)
+print('navin\'s Laptop')
+      
+navin's Laptop
+print("navin's Laptop")
+      
+navin's Laptop
+print("\navin is a good boy")
+      
+
+avin is a good boy
