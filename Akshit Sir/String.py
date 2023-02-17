@@ -41,5 +41,13 @@ print(fav_quote[::-1])
 # slicing
 fav_quote = "That's what she said"
 web_series = ["GOT", "HIMYM", "Suits", "Friends", "You", "Elite"]
+# last variable
+print(fav_quote[-1])
 print(fav_quote[10:6:-1])
 print(web_series[3:0:-1])
+
+# concatenate
+greeting = "Good Morning"
+name = " John Doe"
+greeting = greeting + name
+print(greeting)
