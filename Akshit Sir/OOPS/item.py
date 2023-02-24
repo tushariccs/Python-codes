@@ -57,11 +57,17 @@ class Item:
     def calculate_total_price(self):
         return self.price * self.qty
 
+    def __repr__(self) -> str:
+        return "f", {Item.all}
+
 
 Laptop = Item("Asus", 200000.0, 6)
 print(Laptop.calculate_total_price())
 earphone = Item("Earphone", 200, 2)
 Charger = Item("Charger", 20, 2)
 
-for items in Item.all:
-    print(items)
+# for items in Item.all:
+#     print(items)
+
+
+# def __repr__ is used for representation
