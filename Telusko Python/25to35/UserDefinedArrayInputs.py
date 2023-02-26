@@ -9,11 +9,15 @@ for i in range(0, a, 1):
     arr.append(x)
 
 
-def search():
-    search_element = int(input("Enter the element to be searched"))
-    for i in range(0, len(arr)):
-        if (arr[i] == search_element):
-            print("Element found")
+# def search():
+#     search_element = int(input("Enter the element to be searched"))
+#     for i in range(0, len(arr)):
+#         if (arr[i] == search_element):
+#             print("Element found")
 
 
+# print(arr)
+
+val = int(input("Enter the value to be serached in an array?"))
 print(arr)
+print(arr.index(val))

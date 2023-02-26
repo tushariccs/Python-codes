@@ -1,0 +1,5 @@
+To Create a virtual Environment
+python -m venv .venv
+.venu folder is created 
+
+Open a new terminal (ctrl+shift+`) so u will in virtual environment,So u can install all packages
