@@ -1,0 +1,31 @@
+Package
+
+If I want to perform any action.
+    I should write the code for performing those actions
+    I can cause use a package.(Inside every package there will lots of function)
+    we just need to call that function to perform our analysis.
+If I want to perform any analysis(get the descriptive of data).
+Pandas,SKLEARN used for machine learning,Matplotlib for creating visualization dashboard.
+Pandas are used for descriptive analysis
+
+To import a package
+
+Import packagename
+
+Import packagename as p1
+We need use multiple function so we need to import package.
+
+                Package
+    Module1                 Module2
+
+Function1 Function2
+
+The way we call function f1 as per up nomancliture os
+p1.m1.function1 ->this will call function function1
+p1.m1.Function2 ->this will call function function2
+p1.m1.function3 ->this will call function function3
+
+
+Pandas doesn't have concept of modules.
+p1.f1 ->this will call function function1
+
