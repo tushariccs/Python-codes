@@ -1,0 +1,23 @@
+cand
+df_new = cand[['Total Cases','Total Deaths']]
+# df_new['Total Cases'] = df_new['Total Cases'].astype(int)
+# df_new['Total Deaths'] = df_new['Total Deaths'].astype(int)
+a = df_new['Total Cases'].head(30).str.replace(',','')
+b = df_new['Total Deaths'].head(30).str.replace(',','')
+# a = df_new['Total Deaths'].replace(',','')
+# for i in range(0,10,1):
+#     b[i].split(',',' ')
+print(a)
+print(b)
+# df_new.dtypes
+# a
+
+
+
+import matplotlib.pyplot as plt
+
+plt.figure(figsize=(25,5))
+plt.scatter(a,b)
+plt.
+plt.subplots_adjust(bottom=spacing)
+plt.grid()
